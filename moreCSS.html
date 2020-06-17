@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>More CSS</title>
+	<style>
+		h1,h2{
+			color:red;
+		}
+		ol > li{ /* Only apply this blue color change to immediate child of ol. Which is li. But NOT grand-childs. */
+			color: blue;
+		}
+		input[type=text]{
+			background-color: red;
+		}
+		input[type=number]{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<h1>The biggest Header!</h1>
+	<h2>The bigger Header!</h2>
+
+	<ol>
+		<li>Number 1</li>
+		<li>Number 2</li>
+		<ul>
+			<li>Sub-Number 1</li>
+			<li>Sub-Number 2</li>
+		</ul>
+		<li>Number 3</li>
+	</ol>
+
+	<ul>
+		<li>2nd List Item 1</li>
+		<li>2nd List Item 2</li>		
+	</ul>
+
+	<form>
+		<div>
+			<input type="text" name="Name" placeholder="Name">
+			<input type="number" name="Name" placeholder="Age">
+		</div>
+	</form>
+</body>
+</html>
