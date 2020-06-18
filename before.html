@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Before Anchor tag Content</title>
+	<style>
+		a::before{
+			content: "\21d2 Click Here:";
+			font-weight: bold;
+		}	
+		a::selection{
+			background-color: yellow;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<a href="#">First Link</a><br>
+	<a href="#">Second Link</a>
+</body>
+</html>
