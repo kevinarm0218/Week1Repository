@@ -2,8 +2,51 @@
 <html>
 <head>
 	<title>Week 1</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<meta name="viewport" content="width=device=width, initial-scale=1.0"> <!--This tag tells us on user's viewport(could be phone,laptop etc..) take the device width and make it the width of our wegpage. -->
+	<style>
+		@media print{/*This media contents inside brackets will only appear when it is printed. */
+			.screen-only{
+				display: none;
+			}
+		}
+		@media (min-width: 700px){
+			body{
+				background-color: white;
+				color: black;
+			}
+			h1::before{
+				content: "Welcome to my webpage";
+			}
+		}
+		@media (max-width: 699px){
+			body{
+				background-color: ;
+				color: white;
+			}
+			h1::before{
+				content: "Welcome!";
+			}
+		}
+	</style>
 </head>
 <body>   
 	<a href="hello.html">Click Here!</a>	
+
+	<p>This is a paragraph</p>
+	<p>This is the 2nd paragraph on this web</p>
+	<p class="screen-only">This is the last paragraph. Will not appear when you print this page. </p>
+
+	<h1></h1>
+
+
+	<ul>
+		<li>Hi</li>
+		<li>Bye</li>
+	</ul>
+	<ol>
+		<li>Heyyy</li>
+		<li>Byeeeee</li>
+	</ol>
 </body>
 </html>

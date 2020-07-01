@@ -1,0 +1,29 @@
+.grid2 .grid-item3, .grid2 .grid-item2, .grid2 .grid-item1, .grid2 {
+  border: 10px;
+  border-color: purple;
+  border-style: solid;
+}
+
+.grid2 .grid-item1 {
+  border-color: red;
+  background-color: orange;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.grid2 .grid-item2 {
+  border-style: dotted;
+  background-color: pink;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.grid2 .grid-item3 {
+  border: red 3px dashed;
+  background-color: blue;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=grid.css.map */

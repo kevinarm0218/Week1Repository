@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid</title>
+	<link rel="stylesheet" type="text/css" href="grid.css">
+	<style>
+		.grid2{
+			background-color: green;
+			display: grid;
+			padding: 20px;
+			grid-column-gap: 30px; /*The space between indivual col gaps to be 20px; */
+			grid-row-gap: 10px;  /*The space between indivdual row gaps to be 10px; */
+			grid-template-columns: auto auto auto;  /*This lets us decide that first col should be 200px. 2nd column should be 200px. And the last column should be automatically generated to fill the whole width. */
+		}
+		/*.grid-item2{
+			background-color: white;
+			font-size: 20px;
+			padding: 20px;
+			text-align: center;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="grid2">
+		<div class="grid-item1">A.</div>
+		<div class="grid-item1">B.</div>
+		<div class="grid-item1">C.</div>
+		<div class="grid-item1">D.</div>		
+
+		<div class="grid-item2">E.</div>
+		<div class="grid-item2">F.</div>
+		<div class="grid-item2">G.</div>
+		<div class="grid-item2">H.</div>
+	
+		<div class="grid-item3">I.</div>
+		<div class="grid-item3">J.</div>		
+		<div class="grid-item3">K.</div>
+		<div class="grid-item3">L.</div>	
+	</div>
+</body>
+</html>

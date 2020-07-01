@@ -1,0 +1,42 @@
+$row1: orange;
+$row2 : pink;
+$row3 : blue;
+
+%message{
+	border: 10px;
+	border-color: purple;
+	border-style: solid;
+}
+.grid2{
+	@extend %message;
+
+	.grid-item1{
+		@extend %message;
+		border-color: red;
+		background-color: $row1;
+		font-size: 20px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.grid-item2{
+		@extend %message;
+		border-style: dotted;
+		background-color: $row2;
+		font-size: 20px;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.grid-item3{
+		@extend %message;
+		border:3px;
+		background-color: $row3;
+		font-size: 20px;
+		padding: 20px;
+		text-align: center;
+	}
+
+
+
+}
